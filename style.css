@@ -1,0 +1,67 @@
+#main{
+    height: 470px;
+    width: 550px;
+    border: 0.5px solid black;
+    margin: auto;
+    margin-top: 7%;
+    text-align: center; 
+    background: rgba(225,225,225,0.3);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    border-radius: 15%;
+    border: none;
+   
+    
+}
+#rules{
+   text-align: justify;
+   margin-left: 21%;
+   font-weight: bolder;
+}
+#n1{
+    height: 25px;
+    width: 200px;
+    margin-left: 10px;
+}
+button{
+    height: 30px;
+    width: 90px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius:10px;
+    border-top-right-radius: 10px;
+    font-weight: bold;
+    background: linear-gradient(40deg,rgb(246, 30, 181),rgb(212, 186, 38),rgb(145, 9, 236));
+    box-shadow: 5px 5px 5px white;
+    margin-top: -2%;
+}
+#buttons{
+    display: flex;
+    justify-content: space-around;
+   
+}
+body{
+   background: url("https://e0.pxfuel.com/wallpapers/521/860/desktop-wallpaper-casino.jpg");
+    background-size: cover;
+}
+
+button:hover{
+    background: linear-gradient(40deg,rgb(17, 17, 17),rgb(240, 238, 240),rgb(204, 0, 0));
+    height: 40px;
+    width: 100px;
+}
+h2{
+    margin-top: 7%;
+}
+b{
+    color: mediumturquoise;
+}
+h2{
+    padding-top: 25px;
+}
+#count{
+    margin-top: -1%;
+}
+#ss{
+    color: rgb(53, 11, 240);
+   
+}
